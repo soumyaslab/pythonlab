@@ -1,4 +1,16 @@
+'''
+Linear Search
+The linear search is used to find an item in a list. The items do not have to be in order. To search for an item, start at the beginning of the list and continue searching until either the end of the list is reached or the item is found.
 
+The algorithm is as follows (given a list called 'List' and looking for an item called 'item'):
+
+    position <- 0
+    found <- False
+    while position < len(List) and not found:
+        if List[position] = item:
+            found <- True
+        position <- position + 1
+'''
 numberofelement = int(raw_input("How many element to process: "))
 arr = []
 
